@@ -1,6 +1,6 @@
 <template>
     <div>
-      <SelectorComponent></SelectorComponent>
+      <p>HOMEPAGE</p>
     </div>
 </template>
 

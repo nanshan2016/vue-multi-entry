@@ -1,18 +1,13 @@
+/**
+ * Created by gaoying on 2018/4/12.
+ */
 import VueRouter from 'vue-router';
-import Home from '@/components/containers/home'
 import JobList from '@/components/containers/joblist'
 
 export default new VueRouter({
-  mode: 'history',
   routes: [
     {
-      path: '/home',
-      name: 'home',
-      component: Home
-    },
-
-    {
-      path: '/joblist',
+      path: '/index',
       name: 'joblist',
       component: JobList
     }
